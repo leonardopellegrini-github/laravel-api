@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <div class="flex-center position-ref">
+  <header class="container text-center">
     @if (Route::has('login'))
         <div class="top-right links">
             @auth
@@ -26,11 +26,13 @@
     @endif
 
     
+</header>
+<div class="container p-3">
+  <div id="app">
+
+  </div>
 </div>
 
-<div id="app">
-
-</div>
 
 <script src="{{ asset('js/front.js') }}" defer></script>
 </body>
