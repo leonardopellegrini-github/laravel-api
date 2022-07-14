@@ -29,7 +29,6 @@ export default {
         getApi() {
             axios.get(this.apiUrl).then((r) => {
                 this.posts = r.data;
-                console.log(r.data)
             });
         },
     },

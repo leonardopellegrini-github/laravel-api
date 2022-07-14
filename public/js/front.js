@@ -1922,7 +1922,6 @@ __webpack_require__.r(__webpack_exports__);
 
       axios.get(this.apiUrl).then(function (r) {
         _this.posts = r.data;
-        console.log(r.data);
       });
     }
   },
